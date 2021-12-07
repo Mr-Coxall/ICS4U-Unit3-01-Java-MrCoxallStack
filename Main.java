@@ -1,5 +1,5 @@
 /*
-* The stack program uses OOP to reate a stack
+* The stack program uses OOP to create a stack
 *
 * @author  Mr Coxall
 * @version 1.0
@@ -31,7 +31,7 @@ final class Main {
     *
     * @param args No args will be used
     */
-    public static void main(String[] args) {
+    public static void main(final String[] args) {
         // use MrCoxallStack class
         MrCoxallStack aStack = new MrCoxallStack();
 
