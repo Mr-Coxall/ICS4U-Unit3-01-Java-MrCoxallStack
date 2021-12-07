@@ -3,7 +3,7 @@ import java.util.ArrayList; // import the ArrayList class
 public class MrCoxallStack {
         
     // the MrCoxallStack class has
-    ArrayList<Integer> theStack = new ArrayList<Integer>();
+    private ArrayList<Integer> theStack = new ArrayList<Integer>();
     
     /**
     * The push() function
