@@ -5,17 +5,23 @@ public class MrCoxallStack {
     // the MrCoxallStack class has
     ArrayList<Integer> theStack = new ArrayList<Integer>();
     
-    // push method
-    public void Push(int pushNumber) {
+    /**
+    * The push() function
+    *
+    * @param pushNumber The int to be added to the stack
+    */
+    public void push(final int pushNumber) {
         theStack.add(pushNumber);
     }
 
-    // push method
-    public void ShowStack() {
+    /**
+    * The showStack method
+    */
+    public void showStack() {
         // print out the ShowStack
         System.out.println("The stack list.");
-        for (Integer aSingleElement : theStack) { 		      
-	        System.out.println(aSingleElement); 		
+        for (Integer aSingleElement : theStack) {
+	        System.out.println(aSingleElement);
 	    }
         System.out.println("End of stack list.\n");
     }

@@ -4,15 +4,15 @@ class Main {
 		MrCoxallStack aStack = new MrCoxallStack();
 		
 		System.out.println("The initial stack is empty.\n");
-        aStack.ShowStack();
+        aStack.showStack();
 
 		System.out.println("Adding 42.");
-        aStack.Push(42);
-        aStack.ShowStack();
+        aStack.push(42);
+        aStack.showStack();
     	
 		System.out.println("Adding 27.");
-        aStack.Push(27);
-        aStack.ShowStack();
+        aStack.push(27);
+        aStack.showStack();
 
         System.out.println("\nDone.");        
   }
