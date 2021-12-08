@@ -12,7 +12,7 @@ import java.util.ArrayList; // import the ArrayList class
 public class MrCoxallStack {
 
     /**
-    * An ArrayList that will hold the tack elements
+    * An ArrayList that will hold the tack elements.
     */
     private ArrayList<Integer> theStack = new ArrayList<Integer>();
 
