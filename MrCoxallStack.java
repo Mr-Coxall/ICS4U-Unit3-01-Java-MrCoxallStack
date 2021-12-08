@@ -17,15 +17,7 @@ public class MrCoxallStack {
     private ArrayList<Integer> theStack = new ArrayList<Integer>();
 
     /**
-    * The push() function.
-    *
-    * @param pushNumber The int to be added to the stack
-    */
-    public void push(final int pushNumber) {
-        theStack.add(0, pushNumber);
-    }
-
-    /**
+    * Getter.
     * The showStack method.
     */
     public void showStack() {
@@ -36,4 +28,23 @@ public class MrCoxallStack {
         }
         System.out.println("End of stack list.\n");
     }
+
+    /**
+    * The push() function.
+    *
+    * @param pushNumber The int to be added to the stack
+    */
+    public void push(final int pushNumber) {
+        theStack.add(0, pushNumber);
+    }
+
+    /**
+    * The pop() function.
+    *
+    * @return Remove the op element and return it
+    */
+    public int pop() {
+        return theStack.remove(0);
+    }
+
 }

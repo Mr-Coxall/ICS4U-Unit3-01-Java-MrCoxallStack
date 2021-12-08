@@ -34,6 +34,7 @@ final class Main {
     public static void main(final String[] args) {
         // use MrCoxallStack class
         MrCoxallStack aStack = new MrCoxallStack();
+        int tempElement;
 
         System.out.println("The initial stack is empty.\n");
         aStack.showStack();
@@ -44,6 +45,14 @@ final class Main {
 
         System.out.println("Adding 24.");
         aStack.push(TWENTY_FOUR);
+        aStack.showStack();
+
+        System.out.println("Adding 42.");
+        aStack.push(FORTY_TWO);
+        aStack.showStack();
+
+        System.out.println("Pop top element.");
+        tempElement = aStack.pop();
         aStack.showStack();
 
         System.out.println("\nDone.");
