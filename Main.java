@@ -42,7 +42,7 @@ final class Main {
         aStack.push(FORTY_TWO);
         aStack.showStack();
 
-        System.out.println("Adding 27.");
+        System.out.println("Adding 24.");
         aStack.push(TWENTY_FOUR);
         aStack.showStack();
 

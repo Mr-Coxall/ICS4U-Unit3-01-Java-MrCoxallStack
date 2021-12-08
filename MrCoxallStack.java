@@ -11,7 +11,9 @@ import java.util.ArrayList; // import the ArrayList class
 
 public class MrCoxallStack {
 
-    // the MrCoxallStack class has
+    /**
+    * An ArrayList that will hold the tack elements
+    */
     private ArrayList<Integer> theStack = new ArrayList<Integer>();
 
     /**
@@ -20,7 +22,7 @@ public class MrCoxallStack {
     * @param pushNumber The int to be added to the stack
     */
     public void push(final int pushNumber) {
-        theStack.add(pushNumber);
+        theStack.add(0, pushNumber);
     }
 
     /**
@@ -31,7 +33,7 @@ public class MrCoxallStack {
         System.out.println("The stack list.");
         for (Integer aSingleElement : theStack) {
             System.out.println(aSingleElement);
-	    }
+        }
         System.out.println("End of stack list.\n");
     }
 }
