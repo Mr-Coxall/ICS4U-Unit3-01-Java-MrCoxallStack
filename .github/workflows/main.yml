@@ -45,4 +45,4 @@ jobs:
           distribution: 'adopt'
 
       - name: Javadoc Action
-        run: ant -noinput javadoc
+        run: ant -noinput -buildfile build.xml
